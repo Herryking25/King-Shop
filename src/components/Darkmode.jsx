@@ -9,9 +9,9 @@ const [theme, setTheme] = React.useState(
     : "light"
 );
 
-const element = document.documentElement;
-console.log(element);
+const element = document.documentElement; //access to html element
 
+// set theme to localStorage and html elemennt
 React.useEffect(() =>{
     localStorage.setItem("theme", theme);
     if (theme == "dark") {
