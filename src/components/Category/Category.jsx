@@ -45,7 +45,7 @@ const Category = () => {
                     </div>
                 </div>
                 <img src={Image2} alt="" 
-                className='w-[320px] absolute -right-4 lg:top-[40px] '
+                className='w-[320px] absolute -right-4 lg:top-[40px]'
                 />
             </div>
             {/* third col */}
@@ -64,7 +64,7 @@ const Category = () => {
                     </div>
                 </div>
                 <img src={Image3} alt="" 
-                className='w-[300px] absolute top-1/2 -translate-y-1/2 -right-0'
+                className='w-[350px] absolute top-1/2 -translate-y-1/2 -right-0'
                 />
             </div>
         </div>
