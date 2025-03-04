@@ -45,7 +45,7 @@ const Category = () => {
                     </div>
                 </div>
                 <img src={Image2} alt="" 
-                className='w-[320px] absolute bottom-0 '
+                className='w-[320px] absolute bottom-0'
                 />
             </div>
             {/* third col */}
