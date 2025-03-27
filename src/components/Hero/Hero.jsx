@@ -33,7 +33,7 @@ const HeroSlide = [
 ]
 
 
-const Hero = () => {
+const Hero = ({ handleOderPopup }) => {
     const settings = {
         dots: false,
         arrows: false,
@@ -69,6 +69,7 @@ const Hero = () => {
                                 text="Shop By Category"
                                 bgColor="bg-primary"
                                 textColor="text-white"
+                                handleOderPopup={handleOderPopup}
                                 />
                             </div>
                         </div>
